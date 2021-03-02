@@ -1,0 +1,45 @@
+.daddy {
+    padding: 200px;
+}
+.container {
+    display: flex;
+    margin: 10px;
+    align-content: space-around; 
+    font-size: 15px;
+} 
+.text-box {
+    display: flex;
+    background-color: rgb(228, 240, 248); 
+    border: darkgrey 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    align-content: space-around;
+}
+.item-4 {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.item-5 {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+.item-6 {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.item-7 {
+     flex-basis: 40%;
+}
+.item-8 {
+     flex-basis: 60%;
+}
+.item-9 {
+     flex-basis: 70%;
+}
+.item-10 {
+     flex-basis: 30%;
+}
