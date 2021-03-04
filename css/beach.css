@@ -1,0 +1,76 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.image-beach-container {
+    padding: 10px;
+    background-image: url(../images/beach.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: rgb(109, 58, 58);
+    flex-direction: column;
+    margin: auto;
+}
+a {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px; 
+    color: rgb(109, 58, 58);
+    border: 1px rgb(109, 58, 58) solid;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+a:hover {
+cursor: pointer;
+background-color:burlywood;
+}
+.container-wide {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+    line-height: 20px;
+}
+.wide-brown {
+background-color: chocolate;
+color: white ;
+padding: 20px;
+}
+.wide-white {
+    background-color: #fff;
+    color: chocolate;
+    padding: 20px;
+}
+.container-short {
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+.short-1 {
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+}
+.short-2 {
+    background-color: #fff;
+    color: chocolate;
+    border: 1px whitesmoke solid;
+    padding: 20px;
+}
+.short-3 {
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+}
